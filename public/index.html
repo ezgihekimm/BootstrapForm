@@ -10,6 +10,26 @@
 	
 	<title>Hello, world!</title>
 	<style>
+		.badge-secondary {
+    color: #fff;
+    background-color: #6c757d;
+}
+.badge-pill {
+    padding-right: .6em;
+    padding-left: .6em;
+    border-radius: 10rem;
+}
+.badge {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    
+}
 		.p{
 			font-size: large;
 			color: #212529;
@@ -242,6 +262,11 @@
 			</div>
 			</div>
 			<div class="col-lg-3 col-md-4 col-sm-12 order-sm-0 order-md-1" >
+				<h4 class="d-flex justify-content-between align-items-center mb-3">
+					<span class="text-muted">Your cart</span>
+					<span class="badge badge-secondary badge-pill">3</span>
+
+				</h4>
 				<div class="card" style="width: 18rem; ">
 					
 					<ul class="list-group list-group-flush">
@@ -281,6 +306,12 @@
 					 <strong>$20</strong>
 
 					</ul>
+				  </div>
+				  <div class="input-group mt-3">
+					  <input type="text" class="form-control" placeholder="Promo code">
+					  <div class="input-group-append">
+						 <button type="submit" class="btn btn-secondary">Redeem</button>
+					  </div>
 				  </div>
 			</div>
 		</div>
